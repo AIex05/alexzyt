@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&family=DynaPuff&family=Montserrat&display=swap');
+
+.navbar .links{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  align-items: center;
+}
