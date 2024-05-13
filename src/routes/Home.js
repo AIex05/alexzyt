@@ -116,11 +116,12 @@ const Home = () => {
           </div>
           <div className="one-half column">
             <img
-              src={require("../files/image/profile.jpg")}
+              src={require("../files/image/profile1.png")}
               alt="Profile picture"
               className="picture"
               width="500px"
               height="500px"
+              style={{objectFit:'cover',objectPosition: '0 0'}}
             />
           </div>
         </div>
