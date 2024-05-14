@@ -11,12 +11,20 @@ const Home = () => {
             <h4>Hi, my name is </h4>
             <h2>Alex Zhu</h2>
             <Link
-              to={require("../files/pdf/YTResume.pdf")}
+              to={require("../files/pdf/YuetingZhu_resume_DS_1.3.5_OnePage.pdf")}
               target="_blank"
               rel="noreferrer"
-              download="ZYResume.pdf"
+              download="Yueting_Zhu_Resume.pdf"
             >
               <button className="button">Download Resume</button>
+            </Link>
+            <Link
+              to={require("../files/pdf/朱越汀_简历_1.0.2.pdf")}
+              target="_blank"
+              rel="noreferrer"
+              download="朱越汀简历.pdf"
+            >
+              <button className="button">下载简历</button>
             </Link>
             <div className="row icons">
               <div className="icon">
@@ -35,7 +43,7 @@ const Home = () => {
                     height="32"
                     width="32"
                     src="https://cdn.simpleicons.org/LinkedIn/#0A66C2"
-                    style={{cursor:"pointer"}}
+                    style={{ cursor: "pointer" }}
                   />
                 </a>
                 <div className="clickToCopy">Click to Copy</div>
@@ -61,7 +69,7 @@ const Home = () => {
                 </div>
                 <a
                   onClick={() => {
-                    navigator.clipboard.writeText("7747018877").then(function(){alert("Copied to the Clipboard");})
+                    navigator.clipboard.writeText("7747018877").then(function () { alert("Copied to the Clipboard"); })
                   }}
                   href="sms:+12125550690"
                 >
@@ -89,7 +97,7 @@ const Home = () => {
                     height="32"
                     width="32"
                     src="https://cdn.simpleicons.org/gmail/#15a5e8"
-                    style={{cursor:"pointer"}}
+                    style={{ cursor: "pointer" }}
                   />
                 </a>
                 <div className="clickToCopy">Click to Mail</div>
@@ -98,7 +106,7 @@ const Home = () => {
                 <div className="bubble shadow mini top iconText">ZYT-Alex</div>
                 <a
                   onClick={() => {
-                    navigator.clipboard.writeText("ZYT-Alex").then(function(){alert("Copied to the Clipboard");});
+                    navigator.clipboard.writeText("ZYT-Alex").then(function () { alert("Copied to the Clipboard"); });
                   }}
                   target="_blank"
                 >
@@ -107,7 +115,7 @@ const Home = () => {
                     height="32"
                     width="32"
                     src="https://cdn.simpleicons.org/wechat/#15a5e8"
-                    style={{cursor:"pointer"}}
+                    style={{ cursor: "pointer" }}
                   />
                 </a>
                 <div className="clickToCopy">Click to Copy</div>
@@ -121,7 +129,7 @@ const Home = () => {
               className="picture"
               width="500px"
               height="500px"
-              style={{objectFit:'cover',objectPosition: '0 0'}}
+              style={{ objectFit: 'cover', objectPosition: '0 0' }}
             />
           </div>
         </div>
